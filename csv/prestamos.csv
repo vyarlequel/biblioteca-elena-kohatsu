@@ -1,0 +1,4 @@
+dni,nombre,codigo_libro,fecha_prestamo,devuelto
+12345678,María López,7,24/11/2024,0
+23456789,Juan Pérez,4,06/01/2024,0
+45678901,Carlos Ramírez,8,03/06/2024,1
