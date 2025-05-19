@@ -1,16 +1,16 @@
-codigo,titulo,autor,año,en_prestamo
-1,Cien años de soledad,Gabriel García Márquez,1967,0
-2,Orgullo y prejuicio,Jane Austen,1813,0
-3,1984,George Orwell,1949,0
-4,Don Quijote de la Mancha,Miguel de Cervantes,1605,0
-5,El gran Gatsby,F. Scott Fitzgerald,1925,0
-6,Matar a un ruiseñor,Harper Lee,1960,0
-7,Crimen y castigo,Fiódor Dostoyevski,1866,0
-8,El amor en los tiempos del cólera,Gabriel García Márquez,1985,0
-9,Ulises,James Joyce,1922,0
-10,Los miserables,Victor Hugo,1862,0
-11,Frankenstein,Mary Shelley,1818,0
-12,Hamlet,William Shakespeare,1603,0
-13,La metamorfosis,Franz Kafka,1915,0
-14,Mujercitas,Louisa May Alcott,1868,0
-15,El Principito,Antoine de Saint-Exupéry,1943,0
+codigo,titulo,autor,año
+1,Cien años de soledad,Gabriel García Márquez,1967
+2,Orgullo y prejuicio,Jane Austen,1813
+3,1984,George Orwell,1949
+4,Don Quijote de la Mancha,Miguel de Cervantes,1605
+5,El gran Gatsby,F. Scott Fitzgerald,1925
+6,Matar a un ruiseñor,Harper Lee,1960
+7,Crimen y castigo,Fiódor Dostoyevski,1866
+8,El amor en los tiempos del cólera,Gabriel García Márquez,1985
+9,Ulises,James Joyce,1922
+10,Los miserables,Victor Hugo,1862
+11,Frankenstein,Mary Shelley,1818
+12,Hamlet,William Shakespeare,1603
+13,La metamorfosis,Franz Kafka,1915
+14,Mujercitas,Louisa May Alcott,1868
+15,El Principito,Antoine de Saint-Exupéry,1943

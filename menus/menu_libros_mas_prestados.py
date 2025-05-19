@@ -1,25 +1,19 @@
-from menus.menu_users import user_menu
-from menus.menu_reports import report_menu
-from menus.menu_settings import settings_menu
+from utils.consola import limpiar_pantalla
+from acciones.reportes import obtener_libros_mas_prestados
 
-def main_menu():
-    while True:
-        print("\n=== Menú Principal ===")
-        print("1. Usuarios")
-        print("2. Reportes")
-        print("3. Configuración")
-        print("0. Salir")
+def mostrar_menu_libros_mas_prestados():
+    limpiar_pantalla()
 
-        opcion = input("Seleccione una opción: ")
+    print("Libros más prestados:\n")
+    resultado = obtener_libros_mas_prestados()
 
-        if opcion == "1":
-            user_menu()
-        elif opcion == "2":
-            report_menu()
-        elif opcion == "3":
-            settings_menu()
-        elif opcion == "0":
-            print("¡Hasta luego!")
-            break
-        else:
-            print("Opción inválida. Intente de nuevo.")
+    if not resultado:
+        print("No hay préstamos registrados.")
+    else:
+        print("{:<45}{}".format("Titulo", "Cantidad"))
+        print("-" * 53)
+
+        for codigo, cantidad in resultado:
+            print("{:<45}{}".format(codigo, cantidad))
+
+    input("\nPresione cualquier tecla para volver...")

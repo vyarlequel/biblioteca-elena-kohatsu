@@ -2,3 +2,10 @@ dni,nombre,codigo_libro,fecha_prestamo,devuelto
 12345678,María López,7,24/11/2024,0
 23456789,Juan Pérez,4,06/01/2024,0
 45678901,Carlos Ramírez,8,03/06/2024,1
+12345678,María López,4,10/02/2024,1
+23456789,Juan Pérez,7,12/02/2024,0
+56789012,Ana Morales,15,11/03/2024,0
+67890123,Luis Herrera,8,13/03/2024,0
+78901234,Elena Vargas,7,20/03/2024,0
+89012345,Pedro Castillo,8,28/03/2024,1
+12345678,María López,7,01/04/2024,0
