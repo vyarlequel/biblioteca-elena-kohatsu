@@ -1,7 +1,7 @@
 from utils.consola import limpiar_pantalla
-from acciones.lectores import lector_existe, registrar_lector
+from acciones.lectores import lector_existe, registrar_lector, tiene_prestamo_pendiente
 
-def menu_registrar_solicitud():
+def mostrar_menu_registrar_solicitud():
     limpiar_pantalla()
 
     print("Registrar solicitud de préstamo")
@@ -12,8 +12,9 @@ def menu_registrar_solicitud():
         nombre = input("Ingrese nombre y apellidos: ")
         registrar_lector(dni, nombre)
 
-    # Debe verificar si tiene un préstamo pendiente
-    print("Verificar si el lector tiene un préstamo pendiente")
+    if tiene_prestamo_pendiente(dni):
+        input("\nPresione cualquier tecla para volver...")
+        return
 
     # Mostrar formulario de registro de solicitud
     print("Mostrar formulario de registro de solicitud y registrar")

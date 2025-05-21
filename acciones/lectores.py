@@ -15,8 +15,8 @@ def tiene_prestamo_pendiente(dni:str) -> bool:
     try:
         df = pd.read_csv("csv/prestamos.csv")
         prestamos_pendientes = df[
-        (df["dni"].astype(str) == dni) & 
-        (df["devuelto"] == 0)
+            (df["dni"].astype(str) == dni) & 
+            (df["devuelto"] == 0)
         ]
         
         if not prestamos_pendientes.empty:
